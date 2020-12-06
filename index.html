@@ -14,21 +14,19 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
    <!-- jQuery本体の読み込み -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  
 <!-- ＃リンクのスムーズスクロール -->
-<script>
+<script type="text/javascript">
 $(function(){
-   // #で始まるリンクをクリックしたら実行されます
-   $('a[href^=#]').click(function() {
-      // スクロールの速度
-      var speed = 400; // ミリ秒で記述
-      var href= $(this).attr("href");
-      var target = $(href == "#" || href == "" ? 'html' : href);
-      var position = target.offset().top - 70;
-      $('body,html').animate({scrollTop:position}, speed, 'swing');
-      return false;
-   });
+  $('a[href^=#]').click(function(){
+		var speed = 400;
+		var href= $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top;
+		$("html, body").animate({scrollTop:position}, speed, "swing");
+		return false;
+	});
 });
 </script>
 </head>
