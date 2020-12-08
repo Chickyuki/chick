@@ -1,0 +1,151 @@
+.navbar-expand-lg {
+  background: rgba(255,255,255,0.5) !important; 
+}
+.navbar-brand {
+  color: #000;
+  font-size: 30px !important;
+  font-weight: 700;
+}
+.nav-link {
+  color: #000;
+  font-weight: 700;
+  font-size: 20px;
+}
+.navbar-brand:hover, .nav-link:hover {
+  color: #7B7B7B;
+}
+.navbar-collapse {
+  justify-content: center;
+}
+.nav-item {
+  padding: 0px 20px;
+  font-size: 20px;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler:focus {
+  outline:none;
+}
+.jumbotron-extend {
+  position: relative;
+  height: 100vh;
+  min-height: 300px;
+  background: url(images/salvatore-ventura-5LsRnLsWC6I-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+}
+.jumbotron-container {
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%);
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.block_about {
+  position: relative;
+  background: #f3f5f8;
+  padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+}
+.block_services, .block_works {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background: #ffffff;
+}
+.block_skills, .block_contact {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background: #f3f5f8;
+}
+.btn-dark,
+.btn-dark.disabled, .btn-dark:disabled {
+  border-radius: 1.0 !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  font-family: 'Avenir', serif;
+}
+.btn-dark:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.h2-top, .h2-second, .h2-third, .h2-fourth {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+.about-top {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-text {
+  display: inline-block;
+  text-align: left;
+  font-size: 18px;
+}
+.about-img {
+  height: 250px;
+  width: 180px;
+}
+.about-intro {
+  font-size: 18px;
+}
+.services-top-svg, .services-second-svg, .services-third-svg {
+  margin-bottom: 20px;
+}
+.h3-top, .h3-second, .h3-third {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.services-top-text, .services-second-text, .services-third-text {
+  margin-bottom: 30px;
+}
+.skills-top-img, .skills-second-img, .skills-third-img, .skills-fourth-img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+.h4-top, .h4-second, .h4-third, .h4-fourth {
+  text-align: center;
+}
+.works-img {
+  height: 300px;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+/* .modal-body {
+  background: #fff;
+  left: 50%;
+  padding: 40px;
+  position: absolute;
+  top: 10%;
+  transform: translate(-50%);
+  width: 60%;
+  z-index: 800;
+} */
+.modal-img {
+  max-width: 100%;
+  height: auto;
+}
+.footer {
+  background: #fff;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
